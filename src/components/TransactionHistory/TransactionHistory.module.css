@@ -1,0 +1,28 @@
+.transactionhistory__container {
+  border: 1px solid black;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.transactionhistory__header {
+  color: beige;
+  background-color: rgb(42, 53, 53);
+  font-size: 24px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.transactionhistory__row {
+  color: black;
+}
+.transactionhistory__row td {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.transactionhistory__row_even {
+  background-color: darkslategrey;
+}
+.transactionhistory__cell {
+}
