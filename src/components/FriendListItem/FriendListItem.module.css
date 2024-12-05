@@ -4,16 +4,20 @@
   align-items: center;
   gap: 10px;
 }
+
 .friendlist__item_name {
   font-size: 24px;
   font-weight: bold;
 }
+
 .friendlist__item_text {
   font-size: 20px;
 }
+
 .friendlist__item_isonline {
   color: green;
 }
+
 .friendlist__item_isoffline {
   color: red;
 }

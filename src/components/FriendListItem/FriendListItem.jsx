@@ -9,8 +9,8 @@ export default function FriendListItem({ friend }) {
       : css.friendlist__item_isoffline
   );
   return (
-    <div key={friend.id} className={css.friendlist__item_container}>
-      <img src={friend.avatar} alt={friend.name} />
+    <div className={css.friendlist__item_container}>
+      <img src={friend.avatar} alt={friend.name} width="48" />
       <p className={css.friendlist__item_name}>{friend.name}</p>
       <p className={classText}>{friend.isOnline ? 'Online' : 'Offline'}</p>
     </div>
