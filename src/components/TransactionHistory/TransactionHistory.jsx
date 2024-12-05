@@ -4,10 +4,9 @@ import clsx from 'clsx';
 
 export default function TransactionHistory({ transactions }) {
   const Table = transactions.map((transaction, index) => {
-    // const even = !((index + 1) % 2) ? true : false;
     const textClass = clsx(
       css.transactionhistory__row,
-      !((index + 1) % 2) && css.transactionhistory__row_even
+      index % 2 && css.transactionhistory__row_even
     );
     return (
       <tr key={transaction.id} className={textClass}>

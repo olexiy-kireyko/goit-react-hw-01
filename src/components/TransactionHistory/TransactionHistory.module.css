@@ -1,28 +1,29 @@
 .transactionhistory__container {
-  border: 1px solid black;
-  margin: 0 auto;
+  margin: 20px auto;
   font-size: 20px;
-  padding: 10px;
+}
+
+.transactionhistory__container th,
+.transactionhistory__container td {
+  padding: 10px 40px;
+  border: 1px solid black;
+}
+
+.transactionhistory__container td:first-child {
+  text-align: start;
+  text-transform: capitalize;
 }
 
 .transactionhistory__header {
   color: beige;
   background-color: rgb(42, 53, 53);
   font-size: 24px;
-  padding: 10px 30px;
-  text-align: center;
 }
 
 .transactionhistory__row {
   color: black;
 }
-.transactionhistory__row td {
-  padding: 10px 30px;
-  text-align: center;
-}
 
 .transactionhistory__row_even {
-  background-color: darkslategrey;
-}
-.transactionhistory__cell {
+  background-color: rgb(92, 128, 128);
 }

@@ -3,12 +3,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  /* justify-content: center; */
-  /* align-items: center; */
   border: 2px solid black;
   border-radius: 8px;
   width: 600px;
-  /* padding: 20px 0; */
   font-size: 30px;
   background-color: rgb(243, 241, 241);
 }
@@ -28,6 +25,8 @@
 }
 
 .profile__main_name {
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .profile__main_text {
@@ -50,13 +49,16 @@
   align-items: center;
   width: calc(100% / 3);
   border-top: 1px solid grey;
-  /* border-left: 1px solid grey; */
 }
+
 .profile__info_item:not(:first-child) {
   border-left: 1px solid grey;
 }
+
 .profile__info_header {
+  text-transform: capitalize;
 }
+
 .profile__info_text {
   font-weight: bold;
 }
